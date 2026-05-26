@@ -1,0 +1,89 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04060B"/>
+      <stop offset="0.5" stop-color="#07101A"/>
+      <stop offset="1" stop-color="#0A1A14"/>
+    </linearGradient>
+    <pattern id="scanline" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="3" fill="#FFFFFF" fill-opacity="0.03"/>
+      <rect y="3" width="6" height="3" fill="#000000" fill-opacity="0"/>
+    </pattern>
+    <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowBlue" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#scanline)"/>
+
+  <rect x="34" y="28" width="1212" height="304" rx="16" fill="#060A0F" stroke="#1E293B" stroke-width="2"/>
+  <rect x="34" y="28" width="1212" height="34" rx="16" fill="#0B1220"/>
+  <rect x="34" y="46" width="1212" height="286" fill="#060A0F"/>
+  <circle cx="58" cy="45" r="6" fill="#EF4444"/>
+  <circle cx="78" cy="45" r="6" fill="#F59E0B"/>
+  <circle cx="98" cy="45" r="6" fill="#22C55E"/>
+  <text x="120" y="50" fill="#94A3B8" font-family="Courier New, monospace" font-size="13">session://dinh-trung-kien</text>
+
+  <text x="64" y="92" fill="#39FF14" font-family="Courier New, monospace" font-size="18" font-weight="700" filter="url(#glowGreen)">
+    root@kien:~$ whoami
+  </text>
+  <text x="84" y="118" fill="#C8FFB4" font-family="Courier New, monospace" font-size="18">Dinh Trung Kien</text>
+
+  <text x="64" y="152" fill="#39FF14" font-family="Courier New, monospace" font-size="18" font-weight="700" filter="url(#glowGreen)">
+    root@kien:~$ cat expertise.txt
+  </text>
+  <text x="84" y="178" fill="#B0FCD7" font-family="Courier New, monospace" font-size="16">[01] local-first systems</text>
+  <text x="84" y="200" fill="#B0FCD7" font-family="Courier New, monospace" font-size="16">[02] iot platforms + automation</text>
+  <text x="84" y="222" fill="#B0FCD7" font-family="Courier New, monospace" font-size="16">[03] developer tooling + ops utils</text>
+
+  <text x="64" y="256" fill="#39FF14" font-family="Courier New, monospace" font-size="18" font-weight="700" filter="url(#glowGreen)">
+    root@kien:~$ status
+  </text>
+  <text x="84" y="282" fill="#E2F7FF" font-family="Courier New, monospace" font-size="16">building practical products from UI to infra</text>
+  <text x="84" y="306" fill="#38BDF8" font-family="Courier New, monospace" font-size="15" filter="url(#glowBlue)">
+    isharoverwhite.com _
+  </text>
+
+  <rect x="742" y="78" width="472" height="224" rx="14" fill="#030712" stroke="#1D4ED8" stroke-opacity="0.45"/>
+  <text x="764" y="104" fill="#60A5FA" font-family="Courier New, monospace" font-size="13">/opt/system-map</text>
+
+  <rect x="770" y="122" width="122" height="44" rx="8" fill="#071A2C" stroke="#2563EB"/>
+  <text x="806" y="149" fill="#DCEBFF" font-family="Courier New, monospace" font-size="15">WEB</text>
+
+  <rect x="936" y="122" width="122" height="44" rx="8" fill="#07211C" stroke="#10B981"/>
+  <text x="973" y="149" fill="#DCFCE7" font-family="Courier New, monospace" font-size="15">API</text>
+
+  <rect x="1102" y="122" width="92" height="44" rx="8" fill="#23190A" stroke="#F59E0B"/>
+  <text x="1119" y="149" fill="#FEF3C7" font-family="Courier New, monospace" font-size="15">MQTT</text>
+
+  <rect x="852" y="204" width="122" height="44" rx="8" fill="#1A1227" stroke="#A855F7"/>
+  <text x="874" y="231" fill="#F3E8FF" font-family="Courier New, monospace" font-size="15">AUTOMATE</text>
+
+  <rect x="1028" y="204" width="142" height="44" rx="8" fill="#1F0D12" stroke="#FB7185"/>
+  <text x="1060" y="231" fill="#FFE4E6" font-family="Courier New, monospace" font-size="15">DEVICES</text>
+
+  <path d="M892 144H936" stroke="#38BDF8" stroke-width="2"/>
+  <path d="M1058 144H1102" stroke="#38BDF8" stroke-width="2"/>
+  <path d="M997 166V204H974" stroke="#22C55E" stroke-width="2"/>
+  <path d="M1058 166V204H1102" stroke="#22C55E" stroke-width="2"/>
+  <circle cx="936" cy="144" r="4" fill="#38BDF8"/>
+  <circle cx="1058" cy="144" r="4" fill="#38BDF8"/>
+  <circle cx="997" cy="204" r="4" fill="#22C55E"/>
+  <circle cx="1102" cy="204" r="4" fill="#22C55E"/>
+
+  <text x="764" y="274" fill="#93C5FD" font-family="Courier New, monospace" font-size="13">
+    uptime: 99.9%  |  mode: build, test, ship
+  </text>
+</svg>
