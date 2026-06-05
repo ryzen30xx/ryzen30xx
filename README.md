@@ -13,7 +13,7 @@
 root@kien:~$ ./profile --dump
 {
   "name": "Dinh Trung Kien",
-  "role": "Intern Developer @ AGlobal",
+  "role": "Fullstack Intern Developer,
   "location": "Ha Long, Quang Ninh, Vietnam",
   "education": "Computer Science @ University of Greenwich Vietnam",
   "mission": "Build self-hosted systems that are practical, operable, and user-owned."
